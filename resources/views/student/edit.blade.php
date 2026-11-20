@@ -20,7 +20,6 @@
 @endif
 
 <form action="/students/{{ $student->id }}" method="POST">
-
     @csrf
     @method('PUT')
 
@@ -82,17 +81,12 @@
 
     <br>
 
-    <button type="submit">
-        Update Student
-    </button>
-
+    <button type="submit">Update Student</button>
 </form>
 
 <br>
 
-<a href="/students">
-    Back to Students
-</a>
+<a href="/students">Back to Students</a>
 
 </body>
 </html>
